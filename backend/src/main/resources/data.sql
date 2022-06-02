@@ -22,5 +22,7 @@ INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Primei
 INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Segundo feedback: favor revisar', TIMESTAMP WITH TIME ZONE '2020-12-12T13:00:00Z', true, '/offers/1/resource/1/sections/1', 1);
 INSERT INTO tb_notification (text, moment, read, route, user_id) VALUES ('Terceiro feedback: favor revisar', TIMESTAMP WITH TIME ZONE '2020-12-14T13:00:00Z', true, '/offers/1/resource/1/sections/1', 1);
 
-
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_Id) VALUES ('Trilha HTML','Trilha Principal do curso', 1, 'https://c.pxhere.com/images/07/b2/f8ed07d6f1a9c740e7703cbb99ee-1443423.jpg!d', 1, 1); 
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_Id) VALUES ('Forum','Tire suas dúvidas', 2, 'https://c.pxhere.com/images/07/b2/f8ed07d6f1a9c740e7703cbb99ee-1443423.jpg!d', 2, 1);
+INSERT INTO tb_resource (title, description, position, img_Uri, type, offer_Id) VALUES ('Lives','Lives Exclusivas', 3, 'https://c.pxhere.com/images/07/b2/f8ed07d6f1a9c740e7703cbb99ee-1443423.jpg!d', 0, 1);
 
